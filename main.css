@@ -44,8 +44,8 @@ html{
 }
 .container{
   display: grid;
-  grid-template-rows: repeat(16, minmax(80px, 15%));
-  grid-template-columns: repeat(16, minmax(40px, 10%));
+  grid-template-rows: repeat(16, 100px);
+  grid-template-columns: repeat(16, 100px);
  }
 .item1{
   grid-column: 1 / 4;
@@ -144,7 +144,7 @@ border-radius: 5px;
   grid-template-rows: subgrid;
   grid-column: 3 / 4;
   grid-row: 5 / 7;
-
+  position:relative;
   top: 20px
 }
 #trending{
@@ -177,6 +177,7 @@ grid-row: 5 / 7;
 border: solid grey 2px;
 border-radius: 5px;
     background-color: white;
+
 }
 
 
