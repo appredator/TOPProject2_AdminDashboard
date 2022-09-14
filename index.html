@@ -1,47 +1,133 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Tennesse Offroad Trails</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="main.css" />
-	</head>
-	<body>
-		<div class="container">
-			<div class="item1">Sidebar</div>
-			<div class="item2">Header</div>
-		   
-			
-			<div class="dashboard">
-			<!-- <h3 id="projectHeader">Your Projects</h3> -->
-			<div class="item3"></div>
-			<!-- <div class="item4"></div> -->
-			<div class="item5"></div>
-			<!-- <div class="item6"></div> -->
-			<div class="item7"></div>
-			<!-- <div class="item8"></div> -->
-			
-			<div class="announcements">
-			<h2 id="announcements">Announcements</h2>
-			<div class="item9"></div>
-			<div class="item10"></div>
-			<div class="item11"></div>
-		   
-			</div>
-			
-			<div class="trending">
-			<h2 id="trending">Trending Now</h2>
-			<div class="item12">Elon bails on twitter buyout.</div>
-			<div class="item13">Pakistan floods devastate families.</div>
-			<div class="item14">Inflation hits record high.</div>
-			<div class="item15"></div>
-			</div>
-			</div>
-			
-			
-			
-			<footer></footer>
-		  </div>
-	   </body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+    <header id="header">
+   <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="magnify" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,1
+    2 14,9.5C14,7 12,5 9.5,5Z" /></svg>
+    <form type="input" id="form"></form>
+    <span id="smallUserName">Mike Vrabel</span>
 
+   <div id="bigUserNameContainer">
+      <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="profile" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="70px" height="40px" viewBox="0 0 24 24"><path d="M12,19.2C9.5,19.2 7.29,17.92 6,16C6.03,14 10,12.9 12,12.9C14,12.9 17.97,14 18,16C16.71,17.92 14.5,19.2 12,19.2M12,5A3,3 0 0,1 15,8A3,3 0 0,1 12,11A3,3 0 0,1 9,8A3,3 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" /></svg>
+    <span id="bigUserName">
+     Hi, Mike Vrabel</span>
+     </div>
+     
+    <button id="button2">New</button>
+    <button id="button3">Delete</button>
+    </header>
+    
+    <div id="sidebar">
+    <div id="title">
+    <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="36px" fill="white"  height="36" viewBox="0 0 24 24"><path d="M19,5V7H15V5H19M9,5V11H5V5H9M19,13V19H15V13H19M9,17V19H5V17H9M21,3H13V9H21V3M11,3H3V13H11V3M21,11H13V21H21V11M11,15H3V21H11V15Z" /></svg>
+    <h3>Dashboard</h3>
+    </div>
+    
+    
+    <div id="home">
+    <?xml   version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="homeIcon"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" fill="white"  width="24" height="24" viewBox="0 0 24 24"><path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" /></svg>
+     <h3 id="homeWord">Home</h3>
+    </div>
+    <div id="settings">
+    <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="settingsIcon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" fill="white"  viewBox="0 0 24 24"><path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" /></svg>
+    <h3 id="settingsWord">Settings</h3>
+    </div> 
+    
+    
+      <div id="support">
+      <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="supportIcon"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" fill="white"  viewBox="0 0 24 24"><path d="M11,18H13V16H11V18M12,6A4,4 0 0,0 8,10H10A2,2 0 0,1 12,8A2,2 0 0,1 14,10C14,12 11,11.75 11,15H13C13,12.75 16,12.5 16,10A4,4 0 0,0 12,6M5,3H19A2,2 0 0,1 21,5V19A2,2 0 0,1 19,21H5A2,2 0 0,1 3,19V5A2,2 0 0,1 5,3Z" /></svg>
+    <h3 id="supportWord">Support</h3>
+    </div> 
+    </div>
+    
+    <div id="dashboard">
+    <!-- <h4 id="yourProjects">
+    Your Projects
+    </h4> -->
+    <div id="project1" class="cards">
+    
+    <h5>
+    Rookie Training Camp<br><br><br>
+    This year's training camp brings a <br>new quarterback into the mix. The team is very excited for the future<br> of the franchise.
+    </h5>
+ 
+    </div>
+     <div id="project2" class="cards">
+       
+    <h5>
+    Mental Health Awareness<br><br><br>
+     Mike Vrabel is making mental <br>health a point of emphasis moving forward.
+    </h5>
+   
+    </div>
+    <div id="project3" class="cards">
+       <h5>
+    Preseason Kickoff<br><br><br>
+     Lorem epsum anova catova roody<br> for the mountain. Lorem epsum <br>anova catova roody for the mountain.
+    </h5>
+   
+    </div>
+    <div id="project4" class="cards">
+   <h5>
+    WHO RUN IT<br><br><br>
+    The Titans have collaborated with<br> Three Six Mafia for a new theme song.
+    </h5>
+    
+    </div>
+       <div id="project5" class="cards">
+   <h5>
+    Recruiting Kickers!<br><br><br>
+    The Titans need a new kicker. Please don't make us use the meme again. It is too painful.
+    </h5>
+    </div>
+   <!-- <h4 id="yourAnnouncements">
+    Events
+    </h4> -->
+  <div id="announcement1" class="cards">
+         <h5>
+         
+         Fall Picnic<br><br><br><br>
+         September 16th, 2022<br><br><br><br>
+         All staff and family <br> are invited
+         
+         
+         </h5>
+         </div>
+           <div id="announcement2" class="cards">
+         <h5>
+         
+         9/11 Memorial<br><br><br><br>
+         September 11th, 2022<br><br><br><br>
+         All staff and family <br> are invited
+         
+         
+         </h5>
+         </div>
+    
+       <!--   <div id="trending" class="cards">
+         <h5>
+         
+         9/11 Memorial<br><br><br><br>
+         September 11th, 2022<br><br><br><br>
+         All staff and family <br> are invited
+         
+         
+         </h5>
+         </div> -->
+   
+
+    </div>
+    
+    
+    </div>
+  </body>
 </html>
